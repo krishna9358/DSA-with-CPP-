@@ -21,6 +21,22 @@ void pattern2(int n){
     }
 }
 
+//pattern 3 
+void pattern3(int n){
+    for(int i = 1; i<=n; i++){
+        for ( int j = 1; j <= i; j++){
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
+
+
+//pattern 4
+
+
+
+
 int main(){
     // patterns
     // mostly 2 nested loops --> outer loop, inner loop
@@ -33,20 +49,14 @@ int main(){
         // 4. observe symmetry (optional)
 
 
-    // note: in online cp compilers, no need to write main function, directly put the main code into function given with test cases code.
-    // test cases : 2 2 3 , here 2 is the no. of test cases, and 2 3 are the inputs.
-    // you can write like: ( no need of this in coding ninja)
-    //   int t; 
-    //   cin >> t;
-    //   for (int i = 0; i<t, i++){
-    //     //main code function calling here
-    //   }
+
 
 
 
     int n = 5 ; 
     pattern1(n);
     pattern2(n);
+    pattern3(n);
 
 
     
