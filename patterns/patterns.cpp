@@ -33,7 +33,31 @@ void pattern3(int n){
 
 
 //pattern 4
+void pattern4(int n){
+    for (int i = 1 ; i<= n; i++){
+        for (int j = 0 ; j<i; j++){
+            cout << i ;
+        }
+        cout << endl;
+    }
+}
 
+
+// *****
+// ****
+// ***
+// **
+// *
+
+//pattern 5
+void pattern5(int n){
+    for (int i = 1; i<= n; i++){
+        for (int j = 0 ; j<n-i+1; j++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
 
 
 
@@ -57,7 +81,8 @@ int main(){
     pattern1(n);
     pattern2(n);
     pattern3(n);
-
+    pattern4(n);
+    pattern5(n);    
 
     
 
