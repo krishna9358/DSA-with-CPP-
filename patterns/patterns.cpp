@@ -58,11 +58,28 @@ void pattern5(int n){
 void pattern6(int n){
     for (int i = 1; i<= n; i++){
         for (int j = 1 ; j<=n-i+1; j++){
-            cout << j;
+            cout << j << " ";
         }
         cout << endl;
     }
 }
+
+//pattern 7
+void pattern7(int n){
+    for (int i = 0; i< n; i++){
+        for (int j = 1 ; j<=n-i-1; j++){
+            cout << " ";}
+        for (int k = 1 ; k<=(i*2)+1; k++){
+            cout << "*";
+        }
+        for (int j = 1 ; j<=n-i-1; j++){
+            cout << " ";
+        }
+        
+        cout << endl;
+    }
+}
+
 
 
 
@@ -89,6 +106,7 @@ int main(){
     pattern4(n);
     pattern5(n);    
     pattern6(n);
+    pattern7(n);
 
     
 
