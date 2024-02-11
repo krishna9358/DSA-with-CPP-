@@ -95,6 +95,48 @@ void pattern8(int n){
         
         cout << endl;
     }
+   cout << endl;
+}
+
+//pattern 9 //call function 7 and 8 together 
+void pattern9(int n){
+    for (int i = 0; i< n; i++){
+        for (int j = 1 ; j<=n-i-1; j++){
+            cout << " ";}
+        for (int k = 1 ; k<=(i*2)+1; k++){
+            cout << "*";
+        }
+        for (int j = 1 ; j<=n-i-1; j++){
+            cout << " ";
+        }
+        
+        cout << endl;
+    }
+        for (int i = 0; i< n; i++){
+        for (int j = 0 ; j<i; j++){
+            cout << " ";}
+        for (int k = 0 ; k<2*n-(2*i+1); k++){
+            cout << "*";}
+        for (int j = 0 ; j<i; j++){
+            cout << " ";
+        }
+        
+        cout << endl;
+    }
+
+}
+
+//pattern 10
+void pattern10(int n){
+    for (int i=1 ; i<=2*n-1; i++){
+        int stars= i;
+        if (i>n) stars = 2*n-i;
+        for (int j=1; j<=stars;j++){
+            cout << "*";    
+        }
+        cout<<endl;
+    }
+    
 }
 
 
@@ -119,10 +161,13 @@ int main(){
     pattern2(n);
     pattern3(n);
     pattern4(n);
-    pattern5(n);    
+    pattern5(n);
     pattern6(n);
     pattern7(n);
     pattern8(n);
+    pattern9(n);
+    pattern10(n);
+
 
     
 
