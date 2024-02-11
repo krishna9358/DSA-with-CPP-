@@ -159,6 +159,9 @@ void pattern12(int n){
 
 }
 
+void pattern13(int n){
+    
+}
 
 int main(){
     // patterns
