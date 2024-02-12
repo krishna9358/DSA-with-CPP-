@@ -170,15 +170,26 @@ for (int i =1; i<=n; i++){
 }
 
 void pattern13(int n){
-   int num = 1;
+   char  num = 1;
     for (int i = 1; i<=n; i++){
         for (int j = 1; j<=i; j++){
-            cout << num;
+            cout << num << " ";
             num +=1;
         }
         cout << endl;
     }
 }
+
+
+void pattern14(int n){
+    for (char i = 1; i<=n; i++){
+        for (char ch = 'A'; ch<='A' + i; ch++){
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
 
 int main(){
     // patterns
@@ -210,6 +221,7 @@ int main(){
     pattern11(n);
     pattern12(n);
     pattern13(n);   
+    pattern14(n);
 
     
 
