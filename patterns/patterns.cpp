@@ -182,11 +182,27 @@ void pattern13(int n){
 
 
 void pattern14(int n){
-    for (char i = 1; i<=n; i++){
+    for (char i = 0; i<n; i++){
         for (char ch = 'A'; ch<='A' + i; ch++){
             cout << ch << " ";
         }
         cout << endl;
+    }
+}
+
+void pattern15(int n){
+        for (char i = 0; i<n; i++){
+        for (char ch = 'A'; ch<='A' + (n-i-1) ; ch++){
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+
+
+void pattern16(int n ){
+    for ( char i = 1; i<n; i++){
+        
     }
 }
 
@@ -208,20 +224,21 @@ int main(){
 
 
     int n = 5 ; 
-    pattern1(n);
-    pattern2(n);
-    pattern3(n);
-    pattern4(n);
-    pattern5(n);
-    pattern6(n);
-    pattern7(n);
-    pattern8(n);
-    pattern9(n);
-    pattern10(n);
-    pattern11(n);
-    pattern12(n);
-    pattern13(n);   
-    pattern14(n);
+    // pattern1(n);
+    // pattern2(n);
+    // pattern3(n);
+    // pattern4(n);
+    // pattern5(n);
+    // pattern6(n);
+    // pattern7(n);
+    // pattern8(n);
+    // pattern9(n);
+    // pattern10(n);
+    // pattern11(n);
+    // pattern12(n);
+    // pattern13(n);   
+    // pattern14(n);
+    pattern15(n);
 
     
 
