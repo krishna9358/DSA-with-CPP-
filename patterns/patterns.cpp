@@ -212,6 +212,27 @@ void pattern16(int n ){
 }
 
 
+void pattern17(int n ){
+
+}
+
+void pattern18(int n){
+
+}
+void pattern19(int n){
+
+}
+void pattern20(int n){
+
+}
+void pattern21(int n){
+
+}
+void pattern22(int n){
+
+}
+
+
 int main(){
     // patterns
     // mostly 2 nested loops --> outer loop, inner loop
@@ -243,8 +264,14 @@ int main(){
     // pattern12(n);
     // pattern13(n);   
     // pattern14(n);
-    pattern15(n);
-    pattern16(n);
+    // pattern15(n);
+    // pattern16(n);
+    pattern17(n);
+    pattern18(n);
+    pattern19(n);
+    pattern20(n);
+    pattern21(n);
+    pattern22(n);
 
     
 
