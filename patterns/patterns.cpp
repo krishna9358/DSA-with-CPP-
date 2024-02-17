@@ -232,13 +232,13 @@ void pattern17(int n ){
 }
 
 void pattern18(int n){
-    for (int i = 0; i<n; i++){
-        for (char ch  = 'E' - i ; ch <= 'E'; ch++ ){
-            cout << ch << " "; 
+    char ch= 'A'+n-1;
+    for(int i=0; i<n; i++){
+        for(char c = ch-i ; c<=ch ; c++ ){
+            cout << c << " ";
         }
         cout << endl;
     }
-
 }
 
 void pattern19(int n){
@@ -313,9 +313,19 @@ void pattern21(int n){
     
 
 }
-void pattern22(int n){
 
+void pattern22(int n){
+    for ( int i = 0 ; i<n; i++){
+        for(int j = 0; j<n; j++){
+            if(i == 0 || j== 0|| i == n-1 || j == n-1 ){
+                cout<< "*" ;
+            }
+            else cout << " " ;
+        }
+        cout << endl;
+    }
 }
+
 void pattern23(int n){
 
 }
@@ -357,9 +367,9 @@ int main(){
     // pattern17(n);
     // pattern18(n);
     // pattern19(n);
-    pattern20(n);
-    pattern21(n);
-    pattern22(n);
+    // pattern20(n);
+    // pattern21(n);
+    // pattern22(n);
     pattern23(n);
 
     
